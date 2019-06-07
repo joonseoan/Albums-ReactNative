@@ -2,5 +2,12 @@
 import React from 'react';
 import { Text, AppRegistry } from 'react-native';
 
-const App = () => (<Text>Some Text</Text>);
+import Header from './src/components/header';
+
+const App = () => (
+    
+        <Header headerText="Albums!" />
+    
+);
+
 AppRegistry.registerComponent('albums', () => App);
